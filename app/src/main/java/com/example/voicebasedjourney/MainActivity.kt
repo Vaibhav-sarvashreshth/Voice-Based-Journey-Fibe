@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         val fragments = arrayListOf(
             QuestionFragment.newInstance("What is your name?","Let's get started!","Enter Full name"),
-            QuestionFragment.newInstance("What is your date of birth? 🎂","Great","Enter it in DD-MM-YYYY order"),
-            QuestionFragment.newInstance("What is your monthly income? 💸","Let's talk about money","How are you utillizing your time?")
+            QuestionFragment.newInstance("What is your date of birth?","Great","Enter it in DD-MM-YYYY order"),
+            QuestionFragment.newInstance("What is your monthly income?","Let's talk about money","How are you utillizing your time?")
         )
 
         val adapter = QuestionsPagerAdapter(this, fragments)
